@@ -25,6 +25,7 @@ chrome_options.add_argument('incognito')
 driver = webdriver.Chrome(drivepath,options=chrome_options)
 
 query = 'gate 2020'           #enter your query for which you want to scrap videos
+no_of_videos = 501            #enter number of videos you want to scrap.
 
 driver.get('https://www.youtube.com/results?search_query='+query)
 print('You quered for:',driver.title)
@@ -37,12 +38,12 @@ while True:
     for i in tn:
         links.append(i.get_attribute('href'))
     len(links)
-    if len(links)>510:           #i have set the limit to just above 510
+    if len(links)> no_of_videos + 10:           #i have set the limit 10 more than req. for safety
         break
 
 
-Links = links[1:]          
-print('Total scrapped links are:',len(Links))
+Links = links[1:no_of_videos+1]          
+print('Total scrapped links are:',len(links))
 
 
 #function to return video data except comments (comments extraction takes time so make seperate function)
