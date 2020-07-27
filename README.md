@@ -6,6 +6,8 @@ Input: Query and number of videos for which you want to scrap data.
 
 Output: csv file containing url, Timestamp, Title, Views, upload_date, Likes, Dislikes and Comments.
 
+Here I have extracted data for 501 videos for Query - 'gate 2020' 
+Go Ahead and try yoourself
 
 Necessay modules:
 
