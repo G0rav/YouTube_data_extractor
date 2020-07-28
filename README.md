@@ -27,5 +27,8 @@ Here I have extracted data for 501 videos for Query - 'gate 2020'
 
 # Go Ahead try yourself and contribute to <a href= 'https://www.kaggle.com/gaurav2022/youtube-scrapped-data'>kaggle dataset</a>
 
-Linkedin: <a href= 'https://www.linkedin.com/in/gaurav2022'>Gaurav Jain</a>
-Kaggle: <a href= 'https://www.kaggle.com/gaurav2022'>Gaurav Jain</a>
+Connect with me:
+
+<a href= 'https://www.linkedin.com/in/gaurav2022'>Linkedin</a>
+
+<a href= 'https://www.kaggle.com/gaurav2022'>Kaggle</a>
