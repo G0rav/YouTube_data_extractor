@@ -6,6 +6,7 @@ Input: Query and number of videos for which you want to scrap data.
 Output: csv file containing url, Timestamp, Title, Views, upload_date, Likes, Dislikes and Comments.
 
 """
+#!pip install selenium          #To install selenium remove #
 
 #importing necessary libraries
 from selenium import webdriver
