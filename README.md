@@ -21,6 +21,11 @@ Timestamp - Date and time at which data is extracted
 
 Here I have extracted data for 501 videos for Query - 'gate 2020' 
 
+## NOTE: Data extraction from different urls takes time. 
+## Time taken to complete and number of videos you want to scrap have positive coorelation ..:slightly_smiling_face:
 
 
-# Go Ahead and try yourself
+# Go Ahead try yourself and contribute to <a href= 'https://www.kaggle.com/gaurav2022/youtube-scrapped-data'>kaggle dataset</a>
+
+Linkedin: <a href= 'https://www.linkedin.com/in/gaurav2022'>Gaurav Jain</a>
+Kaggle: <a href= 'https://www.kaggle.com/gaurav2022'>Gaurav Jain</a>
