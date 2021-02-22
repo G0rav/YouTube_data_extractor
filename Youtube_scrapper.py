@@ -8,6 +8,9 @@ Output: csv file containing url, Timestamp, Title, Views, upload_date, Likes, Di
 """
 #!pip install selenium          #To install selenium remove #
 
+query = 'gate 2020'           #enter your query for which you want to scrap videos
+no_of_videos = 501            #enter number of videos you want to scrap.
+
 #importing necessary libraries
 from selenium import webdriver
 import time
@@ -24,9 +27,6 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('incognito')
 
 driver = webdriver.Chrome(drivepath,options=chrome_options)
-
-query = 'gate 2020'           #enter your query for which you want to scrap videos
-no_of_videos = 501            #enter number of videos you want to scrap.
 
 driver.get('https://www.youtube.com/results?search_query='+query)
 print('You quered for:',driver.title)
