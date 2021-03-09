@@ -2,12 +2,11 @@
 
 Python script for scrapping YouTube video data given url of the videos.
 
-used modules:
-
-- selenium for python
+Libraries modules:
+```
+- selenium
 - pandas 
-- time
-- datetime
+```
 
 `!pip install selenium`
 
