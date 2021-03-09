@@ -8,14 +8,15 @@ Output: csv file containing url, Timestamp, Title, Views, upload_date, Likes, Di
 """
 #!pip install selenium          #To install selenium remove #
 
-query = 'gate 2020'           #enter your query for which you want to scrap videos
-no_of_videos = 501            #enter number of videos you want to scrap.
 
 #importing necessary libraries
-from selenium import webdriver
+
 import time
-from datetime import datetime
 import pandas as pd
+from query import *
+from datetime import datetime
+from selenium import webdriver
+
 
 drivepath = "C:\chromedriver\chromedriver.exe"           #path of chromedriver
 
